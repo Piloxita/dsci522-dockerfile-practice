@@ -9,3 +9,4 @@ RUN fix-permissions "${CONDA_DIR}"
 RUN fix-permissions "/home/${NB_USER}"
 
 RUN echo "Done Building!!"
+RUN echo "test action"
